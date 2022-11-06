@@ -48,7 +48,7 @@ Token:
 #### P.S "process" нужен для того, чтобы помечать, что приложение использует конфигурацию
 ![image_2022-11-06_13-03-05](https://user-images.githubusercontent.com/112159682/200163589-74cee513-7ef1-4e34-bc44-25d8e217f5c1.png)
 #### GRPC запрос на получение конфига
-![image_2022-11-06_12-50-37](https://user-images.githubusercontent.com/112159682/200163598-3feb78af-143c-4d6e-b322-0c340f2d4a71.png)
+![image_2022-11-06_13-05-37](https://user-images.githubusercontent.com/112159682/200183587-48e24d81-e60a-4d18-9be5-90dad3ae2eca.png)
 #### Приложение использует конфиг, "process" переходит в true
 ![image_2022-11-06_13-07-17](https://user-images.githubusercontent.com/112159682/200163604-9c6a559a-ef0f-4db8-8ced-2e08471dfa49.png)
 #### GRPC запрос на обновление конфига
