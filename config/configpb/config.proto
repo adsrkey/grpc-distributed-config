@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+package config;
+option go_package = "config/configpb";
+
+message ConfigRequestWithData {
+  string service = 1;
+  map<string, string> data = 2;
+}
+
+message ConfigRequestWithoutData {
+  string service = 1;
+}
+
+message ConfigResponse {
+  string status = 1;
+  map<string, string> data = 2;
+}
+
+service ConfigService{
+  rpc Put(ConfigRequestWithData) returns (ConfigResponse) {};
+  rpc Update(ConfigRequestWithData) returns (ConfigResponse) {};
+  rpc Get(ConfigRequestWithoutData) returns (ConfigResponse) {};
+  rpc Delete(ConfigRequestWithoutData) returns (ConfigResponse) {};
+}
