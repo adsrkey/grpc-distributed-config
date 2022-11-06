@@ -1,4 +1,4 @@
-# Distributed Config Grpc Service
+# Distributed Config GRPC Service
 
 ### Вопросы для разогрева
 1. Опишите самую интересную задачу в программировании, которую вам приходилось решать?
